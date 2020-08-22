@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sql/Sql.iml" filepath="$PROJECT_DIR$/Sql/Sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content.iml" filepath="$PROJECT_DIR$/mall-content/mall-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mallSecond.iml" filepath="$PROJECT_DIR$/.idea/mallSecond.iml" />
     </modules>
   </component>
