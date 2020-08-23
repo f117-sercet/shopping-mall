@@ -10,7 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mall-manager</artifactId>
-<dependencies>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mall-manager-dao</module>
+        <module>mall-manager-pojo</module>
+    </modules>
+    <dependencies>
     <dependency>
         <groupId>com.dsc.mall</groupId>
         <artifactId>mall-common</artifactId>

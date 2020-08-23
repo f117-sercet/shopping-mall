@@ -8,7 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mall-content" />
         <module name="Sql" />
-        <module name="mall-manager" />
+        <module name="mall-manager-dao" />
+        <module name="mall-manager-pojo" />
         <module name="mall-common" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,8 @@
       <module name="mall-common" target="1.8" />
       <module name="mall-content" target="1.8" />
       <module name="mall-manager" target="1.8" />
+      <module name="mall-manager-dao" target="1.8" />
+      <module name="mall-manager-pojo" target="1.8" />
       <module name="mallSecond" target="1.8" />
       <module name="Sql" target="1.8" />
     </bytecodeTargetLevel>
