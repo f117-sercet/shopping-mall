@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-content" />
-        <module name="Sql" />
-        <module name="mall-manager-dao" />
+        <module name="mall-manager-interface" />
         <module name="mall-manager-pojo" />
+        <module name="mall-manager-dao" />
         <module name="mall-common" />
+        <module name="mall-manager-service" />
+        <module name="Sql" />
+        <module name="mall-content" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +20,9 @@
       <module name="mall-content" target="1.8" />
       <module name="mall-manager" target="1.8" />
       <module name="mall-manager-dao" target="1.8" />
+      <module name="mall-manager-interface" target="1.8" />
       <module name="mall-manager-pojo" target="1.8" />
+      <module name="mall-manager-service" target="1.8" />
       <module name="mallSecond" target="1.8" />
       <module name="Sql" target="1.8" />
     </bytecodeTargetLevel>

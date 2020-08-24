@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/mall-content/mall-content.iml" filepath="$PROJECT_DIR$/mall-content/mall-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-dao/mall-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mallSecond.iml" filepath="$PROJECT_DIR$/.idea/mallSecond.iml" />
     </modules>
   </component>
