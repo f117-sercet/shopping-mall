@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-interface/mall-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-pojo/mall-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" filepath="$PROJECT_DIR$/mall-manager/mall-manager-service/mall-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" filepath="$PROJECT_DIR$/mall-manager-web/mall-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-search/mall-search.iml" filepath="$PROJECT_DIR$/mall-search/mall-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mallSecond.iml" filepath="$PROJECT_DIR$/.idea/mallSecond.iml" />
     </modules>
   </component>

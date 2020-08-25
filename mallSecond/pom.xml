@@ -13,6 +13,8 @@
         <module>mall-common</module>
         <module>mall-content</module>
         <module>mall-manager</module>
+        <module>mall-manager-web</module>
+        <module>mall-search</module>
     </modules>
     <!-- 集中定义管理依赖版本号 -->
     <properties>
