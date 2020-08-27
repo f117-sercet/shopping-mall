@@ -1,17 +1,18 @@
 package com.dsc.mall.manager.dto;
 
-import cn.exrick.common.pojo.ZTreeNode;
-import cn.exrick.manager.dto.front.CartProduct;
-import cn.exrick.manager.dto.front.Member;
-import cn.exrick.manager.dto.front.Product;
-import cn.exrick.manager.pojo.*;
+
+import com.dsc.common.pojo.ZtreeNode;
+import com.dsc.mall.manager.dto.front.CartProduct;
+import com.dsc.mall.manager.dto.front.Member;
+import com.dsc.mall.manager.dto.front.Product;
+import com.dsc.mall.manager.pojo.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
 /**
- * @author Exrick
- * @date 2017/8/25
+ * @author dsc
+ * @date
  */
 public class DtoUtil{
 
@@ -88,9 +89,9 @@ public class DtoUtil{
     }
 
 
-    public static ZTreeNode TbPanel2ZTreeNode(TbPanel tbPanel){
+    public static ZtreeNode TbPanel2ZTreeNode(TbPanel tbPanel){
 
-        ZTreeNode zTreeNode =new ZTreeNode();
+        ZtreeNode zTreeNode =new ZtreeNode();
 
         zTreeNode.setId(tbPanel.getId());
         zTreeNode.setIsParent(false);
@@ -106,9 +107,9 @@ public class DtoUtil{
     }
 
 
-    public static ZTreeNode TbItemCat2ZTreeNode(TbItemCat tbItemCat){
+    public static ZtreeNode TbItemCat2ZTreeNode(TbItemCat tbItemCat){
 
-        ZTreeNode zTreeNode =new ZTreeNode();
+        ZtreeNode zTreeNode =new ZtreeNode();
 
         zTreeNode.setId(Math.toIntExact(tbItemCat.getId()));
         zTreeNode.setStatus(tbItemCat.getStatus());
