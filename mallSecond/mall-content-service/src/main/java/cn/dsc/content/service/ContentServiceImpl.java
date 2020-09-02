@@ -14,6 +14,7 @@ import com.dsc.mall.manager.pojo.TbPanel;
 import com.dsc.mall.manager.pojo.TbPanelContent;
 import com.dsc.mall.manager.pojo.TbPanelContentExample;
 import com.github.pagehelper.PageInfo;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -119,16 +120,41 @@ public class ContentServiceImpl implements ContentService{
         deleteHomeRedis();
         return 1;
     }
-    }
 
     @Override
     public int updateContent(TbPanelContent tbPanelContent) {
-        return 0;
+        TbPanelContent old=getTbPanelContentById(tbPanelContent.getId());
+        if(StringUtils.isBlank(tbPanelContent.getPicUrl())){
+            tbPanelContent.setPicUrl(old.getPicUrl());
+        }
+        if(StringUtils.isBlank(tbPanelContent.getPicUrl2())){
+            tbPanelContent.setPicUrl2(old.getPicUrl2());
+        }
+        if(StringUtils.isBlank(tbPanelContent.getPicUrl3())){
+            tbPanelContent.setPicUrl3(old.getPicUrl3());
+        }
+        tbPanelContent.setCreated(old.getCreated());
+        tbPanelContent.setUpdated(new Date());
+        if(tbPanelContentMapper.updateByPrimaryKey(tbPanelContent)!=1){
+            throw new MallException("更新板块内容失败");
+        }
+        //同步导航栏缓存
+        if(tbPanelContent.getPanelId()==HEADER_PANEL_ID){
+            updateNavListRedis();
+        }
+        //同步缓存
+        deleteHomeRedis();
+        return 1;
     }
 
     @Override
-    public TbPanelContent getTbPanelContentById(int id) {
-        return null;
+    public TbPanelContent getTbPanelContentById(int id)
+    {
+        TbPanelContent tbPanelContent=tbPanelContentMapper.selectByPrimaryKey(id);
+        if (tbPanelContent==null){
+            throw new MallException("通过id获取内容失败");
+        }
+        return tbPanelContent;
     }
 
     @Override
