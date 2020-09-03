@@ -14,6 +14,8 @@ import com.dsc.mall.manager.pojo.TbPanel;
 import com.dsc.mall.manager.pojo.TbPanelContent;
 import com.dsc.mall.manager.pojo.TbPanelContentExample;
 import com.github.pagehelper.PageInfo;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -120,6 +122,25 @@ public class ContentServiceImpl implements ContentService{
         deleteHomeRedis();
         return 1;
     }
+    /**
+     * 同步首页缓存
+     */
+    public void deleteHomeRedis(){
+        try {
+            jedisClient.del(PRODUCT_HOME);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void updateNavListRedis() {
+
+        try{
+            jedisClient.del(HEADER_PANEL);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 
     @Override
     public int updateContent(TbPanelContent tbPanelContent) {
@@ -159,6 +180,27 @@ public class ContentServiceImpl implements ContentService{
 
     @Override
     public List<TbPanel> getHome() {
+        List<TbPanel> list=new ArrayList<>();
+        //查询缓存
+        try{
+            //有缓存则读取
+            String json=jedisClient.get(PRODUCT_HOME);
+            if (json!=null){
+                list=new Gson().fromJson(json,new TypeToken<List<TbPanel>>(){}.getRawType();
+                if (json!=null){
+                    log.info("读取了首页缓存");
+                    return list;
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        //没有缓存
+        TbPanelContentExample example=new TbPanelContentExample();
+        TbPanelContentExample.Criteria criteria=example.createCriteria();
+        //条件查询
+        criteria.andP
+
         return null;
     }
 
