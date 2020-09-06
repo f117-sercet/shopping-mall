@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7748d086-51ae-4cd4-b160-081e997c1c8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gujwFaCuJMB6aM09UCmu86FtOs" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/supergo-common/src/main/java/com/dsc/supergo/user/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41494253" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dsc.supergo.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dsc.supergo.portal.controller" />
+      <recent name="com.dsc.supergo.manager.config" />
+      <recent name="com.dsc.supergo.manager.utils" />
+      <recent name="com.dsc.supergo.manager.interceptor" />
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java idea\supergo-parent\supergo-common\src\main\java\com\dsc\supergo\user\utils" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-portal\src\main\resources" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-zuul\src\main\java\com\dsc\supergo\zuul\config" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-zuul\src\main\resources" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-manager-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ManagerWebApplication">
+    <configuration name="BrandMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supergo-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsc.supergo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dsc.supergo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.dsc.supergo.mapper.BrandMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="supergo-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsc.supergo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="supergo-manager-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.manager.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="supergo-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsc.supergo.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.manager.ManagerWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="supergo-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsc.supergo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.MapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="supergo-portal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.PortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="supergo-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsc.supergo.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ManagerWebApplication" />
+        <item itemvalue="Spring Boot.MapperApplication" />
+        <item itemvalue="JUnit.BrandMapperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootHealthEndpointTabSettings">
+    <option name="healthCheckDelay" value="20000" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7748d086-51ae-4cd4-b160-081e997c1c8a" name="Default Changelist" comment="" />
+      <created>1598971607544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598971607544</updated>
+      <workItem from="1598971611580" duration="341000" />
+      <workItem from="1599014301603" duration="4459000" />
+      <workItem from="1599052776824" duration="2344000" />
+      <workItem from="1599189444508" duration="4229000" />
+      <workItem from="1599198789346" duration="1488000" />
+      <workItem from="1599200303733" duration="1625000" />
+      <workItem from="1599209770634" duration="1839000" />
+      <workItem from="1599288590297" duration="4093000" />
+      <workItem from="1599293911502" duration="530000" />
+      <workItem from="1599350813323" duration="6688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1599360295701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1599360295701" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1599210976517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599210976517" />
+    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599199193742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1599199193742" />
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.0.center" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.0.left" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.0.right" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.1.bottom" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.1.center" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.1.left" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state width="1023" height="210" key="GridCell.Tab.1.right" timestamp="1599385091606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1023" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599385091606" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1599289694205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1599289694205" />
+    <state x="540" y="29" key="SettingsEditor" timestamp="1599289521408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="29" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599289521408" />
+    <state x="540" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599196928391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1599196928391" />
+    <state x="178" y="73" key="new project wizard" timestamp="1599359830868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599359830868" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/supergo-eureka/src/main/java/com/dsc/supergo/EurekaApplication.java</url>
+          <line>14</line>
+          <properties class="com.dsc.supergo.EurekaApplication" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
