@@ -1,8 +1,8 @@
 server:
-  port: 9094
+  port: 9003
 spring:
   application:
-    name: supergo-manager-service
+    name: supergo-search
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/supergo?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
     username: root
@@ -32,9 +32,10 @@ spring:
         login-username: admin
         login-password: admin
   #        deny:IP 黑名单
-  servlet:
-    multipart:
-      max-file-size: 5MB
+  data:
+    elasticsearch:
+      cluster-name: my-elasticsearch
+      cluster-nodes: 192.168.220.100:9300
 eureka:
   client:
     service-url:
@@ -45,9 +46,6 @@ eureka:
     instance-id: ${eureka.instance.ip-address}.${server.port}
     lease-renewal-interval-in-seconds: 3
     lease-expiration-duration-in-seconds: 10
-    health-check-url-path: /api/actuator/health #网关设置了根路径，默认监控路径发生了变化
-mybatis:
-  type-aliases-package: com.dsc.supergo.pojo
 management:
   endpoint:
     shutdown:
@@ -58,7 +56,6 @@ management:
     web:
       exposure:
         include: "*"
-jwt:
-  config:
-    key: abc123
-    ttl: 3600
+logging:
+  level:
+    com.supergo: debug

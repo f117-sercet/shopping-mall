@@ -19,6 +19,7 @@
         <module>supergo-manager-web</module>
         <module>supergo-zuul</module>
         <module>supergo-portal</module>
+        <module>supergo-search</module>
     </modules>
 
     <parent>

@@ -12,6 +12,10 @@
     <file url="file://$PROJECT_DIR$/supergo-mapper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/supergo-pojo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/supergo-portal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supergo-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supergo-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supergo-search/supergo-search-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supergo-search/supergo-search-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/supergo-zuul/src/main/java" charset="UTF-8" />
   </component>
 </project>

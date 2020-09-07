@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/supergo-parent.iml" filepath="$PROJECT_DIR$/.idea/supergo-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-pojo/supergo-pojo.iml" filepath="$PROJECT_DIR$/supergo-pojo/supergo-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-portal/supergo-portal.iml" filepath="$PROJECT_DIR$/supergo-portal/supergo-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search-feign/supergo-search-feign.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search-feign/supergo-search-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search-service/supergo-search-service.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search-service/supergo-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-zuul/supergo-zuul.iml" filepath="$PROJECT_DIR$/supergo-zuul/supergo-zuul.iml" />
     </modules>
   </component>

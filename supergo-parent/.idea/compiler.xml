@@ -10,12 +10,14 @@
         <module name="supergo-mapper" />
         <module name="supergo-base-service" />
         <module name="supergo-common" />
-        <module name="supergo-zuul" />
         <module name="supergo-eureka" />
         <module name="supergo-manager-feign" />
         <module name="supergo-pojo" />
         <module name="supergo-manager-web" />
+        <module name="supergo-search-feign" />
+        <module name="supergo-search-service" />
         <module name="supergo-manager-service" />
+        <module name="supergo-zuul" />
         <module name="supergo-portal" />
       </profile>
     </annotationProcessing>
@@ -31,6 +33,9 @@
       <module name="supergo-parent" target="1.8" />
       <module name="supergo-pojo" target="1.8" />
       <module name="supergo-portal" target="1.8" />
+      <module name="supergo-search" target="1.8" />
+      <module name="supergo-search-feign" target="1.8" />
+      <module name="supergo-search-service" target="1.8" />
       <module name="supergo-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -47,6 +52,9 @@
       <module name="supergo-parent" options="-parameters" />
       <module name="supergo-pojo" options="-parameters" />
       <module name="supergo-portal" options="-parameters" />
+      <module name="supergo-search" options="-parameters" />
+      <module name="supergo-search-feign" options="-parameters" />
+      <module name="supergo-search-service" options="-parameters" />
       <module name="supergo-zuul" options="-parameters" />
     </option>
   </component>
