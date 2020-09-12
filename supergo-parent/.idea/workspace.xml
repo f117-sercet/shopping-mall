@@ -39,7 +39,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/eneity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/supergo-sso-service/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.dsc.supergo.mapper" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dsc.supergo.search.controller" />
       <recent name="com.dsc.supergo.search.service" />
@@ -62,15 +65,12 @@
       <recent name="com.dsc.supergo.search.mapper" />
       <recent name="com.dsc.supergo.portal.controller" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java idea\supergo-parent\supergo-sso-service\src\test\java" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-sso-service\src\main\java\com\dsc\supergo\sso" />
+      <recent name="F:\java\java idea\supergo-parent\supergo-sso-service\src\main\resources" />
       <recent name="F:\java\java idea\supergo-parent\supergo-search\supergo-search-service\src\main\java\com\dsc\supergo\search\eneity" />
       <recent name="F:\java\java idea\supergo-parent\supergo-search\supergo-search-service\src\main\resources" />
-      <recent name="F:\java\java idea\supergo-parent\supergo-common\src\main\java\com\dsc\supergo\user\utils" />
-      <recent name="F:\java\java idea\supergo-parent\supergo-portal\src\main\resources" />
-      <recent name="F:\java\java idea\supergo-parent\supergo-zuul\src\main\java\com\dsc\supergo\zuul\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +80,55 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SearchApplication">
+  <component name="RunManager" selected="Spring Boot.SsoApplication">
+    <configuration name="JwtTest.createJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supergo-sso-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supergo.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supergo.sso" />
+      <option name="MAIN_CLASS_NAME" value="com.supergo.sso.JwtTest" />
+      <option name="METHOD_NAME" value="createJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.parseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supergo-sso-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supergo.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supergo.sso" />
+      <option name="MAIN_CLASS_NAME" value="com.supergo.sso.JwtTest" />
+      <option name="METHOD_NAME" value="parseJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.testClaims" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supergo-sso-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supergo.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supergo.sso" />
+      <option name="MAIN_CLASS_NAME" value="com.supergo.sso.JwtTest" />
+      <option name="METHOD_NAME" value="testClaims" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="supergo-eureka" />
       <extension name="coverage">
@@ -101,32 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="supergo-manager-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsc.supergo.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.manager.ManagerWebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="supergo-mapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsc.supergo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.MapperApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="supergo-portal" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.PortalApplication" />
@@ -134,44 +156,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="supergo-search-service" />
+    <configuration name="SsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="supergo-sso-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.dsc.supergo.sso.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="supergo-zuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsc.supergo.zuul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.zuul.ZuulApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dsc.supergo.sso.SsoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SearchApplication" />
-        <item itemvalue="Spring Boot.ManagerWebApplication" />
-        <item itemvalue="Spring Boot.MapperApplication" />
-        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.SsoApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="JUnit.JwtTest.testClaims" />
+        <item itemvalue="JUnit.JwtTest.parseJwt" />
+        <item itemvalue="JUnit.JwtTest.createJwt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpringBootHealthEndpointTabSettings">
     <option name="healthCheckDelay" value="20000" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -194,6 +206,9 @@
       <workItem from="1599293911502" duration="530000" />
       <workItem from="1599350813323" duration="6688000" />
       <workItem from="1599445346018" duration="5907000" />
+      <workItem from="1599631328727" duration="65000" />
+      <workItem from="1599804839726" duration="1038000" />
+      <workItem from="1599834940911" duration="719000" />
     </task>
     <servers />
   </component>
@@ -217,46 +232,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="70" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1599450946185" />
-    <state width="1023" height="210" key="GridCell.Tab.0.bottom" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.0.bottom" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.0.center" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.0.center" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.0.left" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.0.left" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.0.right" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.0.right" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.1.bottom" timestamp="1599451264362">
+    <state width="1023" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.1.bottom" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599451264362" />
-    <state width="1023" height="210" key="GridCell.Tab.1.center" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.1.center" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.1.left" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.1.left" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
-    <state width="1023" height="210" key="GridCell.Tab.1.right" timestamp="1599451264361">
+    <state width="1023" height="217" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
+    <state width="1023" height="217" key="GridCell.Tab.1.right" timestamp="1599835659947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599451264361" />
+    <state width="1023" height="217" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599835659947" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1599289694205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1599289694205" />
-    <state x="540" y="29" key="SettingsEditor" timestamp="1599289521408">
+    <state x="540" y="29" key="SettingsEditor" timestamp="1599805558215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="29" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599289521408" />
+    <state x="540" y="29" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599805558215" />
     <state x="540" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599196928391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -265,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599446054893" />
-    <state x="178" y="73" key="new project wizard" timestamp="1599446118068">
+    <state x="178" y="73" key="new project wizard" timestamp="1599805102706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599446118068" />
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599805102706" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1599446327766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

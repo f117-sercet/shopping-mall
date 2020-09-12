@@ -20,6 +20,8 @@
         <module>supergo-zuul</module>
         <module>supergo-portal</module>
         <module>supergo-search</module>
+        <module>supergo-sso</module>
+        <module>supergo-sso-service</module>
     </modules>
 
     <parent>

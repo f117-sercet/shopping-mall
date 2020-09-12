@@ -7,21 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="supergo-mapper" />
-        <module name="supergo-base-service" />
-        <module name="supergo-common" />
-        <module name="supergo-eureka" />
+        <module name="supergo-manager-service" />
+        <module name="supergo-search-service" />
+        <module name="supergo-manager-web" />
         <module name="supergo-manager-feign" />
         <module name="supergo-pojo" />
-        <module name="supergo-manager-web" />
+        <module name="supergo-eureka" />
+        <module name="supergo-mapper" />
+        <module name="supergo-sso-service" />
         <module name="supergo-search-feign" />
-        <module name="supergo-search-service" />
-        <module name="supergo-manager-service" />
+        <module name="supergo-common" />
+        <module name="super-sso-feign" />
         <module name="supergo-zuul" />
+        <module name="supergo-base-service" />
         <module name="supergo-portal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="super-sso-feign" target="1.8" />
       <module name="supergo-base-service" target="1.8" />
       <module name="supergo-common" target="1.8" />
       <module name="supergo-eureka" target="1.8" />
@@ -36,11 +39,14 @@
       <module name="supergo-search" target="1.8" />
       <module name="supergo-search-feign" target="1.8" />
       <module name="supergo-search-service" target="1.8" />
+      <module name="supergo-sso" target="1.8" />
+      <module name="supergo-sso-service" target="1.8" />
       <module name="supergo-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="super-sso-feign" options="-parameters" />
       <module name="supergo-base-service" options="-parameters" />
       <module name="supergo-common" options="-parameters" />
       <module name="supergo-eureka" options="-parameters" />
@@ -55,6 +61,7 @@
       <module name="supergo-search" options="-parameters" />
       <module name="supergo-search-feign" options="-parameters" />
       <module name="supergo-search-service" options="-parameters" />
+      <module name="supergo-sso-service" options="-parameters" />
       <module name="supergo-zuul" options="-parameters" />
     </option>
   </component>

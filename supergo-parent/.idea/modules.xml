@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/supergo-sso/super-sso-feign/super-sso-feign.iml" filepath="$PROJECT_DIR$/supergo-sso/super-sso-feign/super-sso-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-base-service/supergo-base-service.iml" filepath="$PROJECT_DIR$/supergo-base-service/supergo-base-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-common/supergo-common.iml" filepath="$PROJECT_DIR$/supergo-common/supergo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-eureka/supergo-eureka.iml" filepath="$PROJECT_DIR$/supergo-eureka/supergo-eureka.iml" />
@@ -16,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search-feign/supergo-search-feign.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search-feign/supergo-search-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-search/supergo-search-service/supergo-search-service.iml" filepath="$PROJECT_DIR$/supergo-search/supergo-search-service/supergo-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supergo-sso/supergo-sso.iml" filepath="$PROJECT_DIR$/supergo-sso/supergo-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supergo-sso-service/supergo-sso-service.iml" filepath="$PROJECT_DIR$/supergo-sso-service/supergo-sso-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/supergo-zuul/supergo-zuul.iml" filepath="$PROJECT_DIR$/supergo-zuul/supergo-zuul.iml" />
     </modules>
   </component>
