@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient("supergo-manager")
+@FeignClient
 public interface ApiGoodsFeign {
 
     @GetMapping("/goods/{goodsId}")

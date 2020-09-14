@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient("supergo-manager")
+@FeignClient
 /**
  * //@RequestMapping("/brand") //不要在feign接口上使用此注解，否则会被处理器映射器扫描
  */
