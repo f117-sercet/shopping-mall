@@ -28,8 +28,8 @@
     <!--
       WARNING - @mbg.generated
     -->
-    id, seller_id, goods_name, default_item_id, audit_status, is_marketable, brand_id, 
-    caption, category1_id, category2_id, category3_id, small_pic, price, type_template_id, 
+    id, seller_id, goods_name, default_item_id, audit_status, is_marketable, brand_id,
+    caption, category1_id, category2_id, category3_id, small_pic, price, type_template_id,
     is_enable_spec, is_delete
   </sql>
 </mapper>

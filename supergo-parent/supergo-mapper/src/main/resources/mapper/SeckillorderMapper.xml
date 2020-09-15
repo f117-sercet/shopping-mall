@@ -24,7 +24,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    id, seckill_id, money, user_id, seller_id, create_time, pay_time, status, receiver_address, 
+    id, seckill_id, money, user_id, seller_id, create_time, pay_time, status, receiver_address,
     receiver_mobile, receiver, transaction_id
   </sql>
 </mapper>

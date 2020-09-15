@@ -1,4 +1,6 @@
 package com.dsc.supergo.manager.feign;
+
+
 import com.dsc.supergo.pojo.Goods;
 import com.dsc.supergo.pojo.Goodsdesc;
 import com.dsc.supergo.pojo.Item;
@@ -8,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient
+@FeignClient("supergo-manager2")
 public interface ApiGoodsFeign {
 
     @GetMapping("/goods/{goodsId}")

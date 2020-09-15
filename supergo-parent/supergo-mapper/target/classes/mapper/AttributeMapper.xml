@@ -40,7 +40,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    attribute_id, attribute_name, attribute_key, create_time, update_time, is_delete, 
+    attribute_id, attribute_name, attribute_key, create_time, update_time, is_delete,
     status, bak1, bak2, bak3
   </sql>
   <sql id="Blob_Column_List">

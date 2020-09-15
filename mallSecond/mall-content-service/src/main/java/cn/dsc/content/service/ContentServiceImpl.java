@@ -199,7 +199,7 @@ public class ContentServiceImpl implements ContentService{
         TbPanelContentExample example=new TbPanelContentExample();
         TbPanelContentExample.Criteria criteria=example.createCriteria();
         //条件查询
-        criteria.andP
+
 
         return null;
     }

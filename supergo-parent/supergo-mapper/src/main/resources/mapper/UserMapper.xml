@@ -25,7 +25,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    id, username, password, phone, email, sex, address, state, description, role_id, 
+    id, username, password, phone, email, sex, address, state, description, role_id,
     file, created, updated
   </sql>
 </mapper>

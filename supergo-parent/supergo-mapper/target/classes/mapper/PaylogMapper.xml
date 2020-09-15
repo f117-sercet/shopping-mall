@@ -21,7 +21,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    out_trade_no, create_time, pay_time, total_fee, user_id, transaction_id, trade_state, 
+    out_trade_no, create_time, pay_time, total_fee, user_id, transaction_id, trade_state,
     order_list, pay_type
   </sql>
 </mapper>

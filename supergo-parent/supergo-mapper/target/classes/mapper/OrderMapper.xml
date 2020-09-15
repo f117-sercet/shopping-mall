@@ -29,8 +29,8 @@
     <!--
       WARNING - @mbg.generated
     -->
-    order_id, payment, payment_type, post_fee, status, create_time, update_time, payment_time, 
-    consign_time, end_time, close_time, shipping_name, shipping_code, user_id, buyer_message, 
+    order_id, payment, payment_type, post_fee, status, create_time, update_time, payment_time,
+    consign_time, end_time, close_time, shipping_name, shipping_code, user_id, buyer_message,
     buyer_nick, buyer_comment
   </sql>
 </mapper>

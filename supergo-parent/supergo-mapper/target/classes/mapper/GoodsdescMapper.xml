@@ -19,7 +19,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    goods_id, introduction, specification_items, custom_attribute_items, item_images, 
+    goods_id, introduction, specification_items, custom_attribute_items, item_images,
     package_list, sale_service
   </sql>
 </mapper>

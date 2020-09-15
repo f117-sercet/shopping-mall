@@ -1,8 +1,8 @@
 package com.dsc.supergo.manager.controller;
 
 import com.dsc.supergo.http.HttpResult;
-import com.dsc.supergo.manager.feign.ApiBrandFeign;
 import com.dsc.supergo.pojo.Brand;
+import com.dsc.supergo.manager.feign.ApiBrandFeign;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

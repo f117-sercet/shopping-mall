@@ -28,7 +28,7 @@
     <!--
       WARNING - @mbg.generated
     -->
-    id, goods_id, item_id, title, small_pic, price, cost_price, seller_id, create_time, 
+    id, goods_id, item_id, title, small_pic, price, cost_price, seller_id, create_time,
     check_time, status, start_time, end_time, num, stock_count, introduction
   </sql>
 </mapper>
