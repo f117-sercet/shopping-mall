@@ -25,6 +25,7 @@ import org.springframework.beans.factory.annotation.Value;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 /**
  * 内容实现类
@@ -187,10 +188,8 @@ public class ContentServiceImpl implements ContentService{
             String json=jedisClient.get(PRODUCT_HOME);
             if (json!=null){
                 list=new Gson().fromJson(json,new TypeToken<List<TbPanel>>(){}.getRawType();
-                if (json!=null){
-                    log.info("读取了首页缓存");
-                    return list;
-                }
+                log.info("读取了首页缓存");
+                return list;
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -199,19 +198,48 @@ public class ContentServiceImpl implements ContentService{
         TbPanelContentExample example=new TbPanelContentExample();
         TbPanelContentExample.Criteria criteria=example.createCriteria();
         //条件查询
-
-
-        return null;
+        //把结果添加至缓存
+        try{
+            jedisClient.set(PRODUCT_HOME, new Gson().toJson(list));
+            log.info("添加了首页缓存");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return list;
     }
 
     @Override
     public List<TbPanel> getRecommendGoods() {
-        return null;
+        List<TbPanel> list = new ArrayList<>();
+        //查询缓存
+        try{
+            //有缓存则读取
+            String json=jedisClient.get(RECOMEED_PANEL);
+            if(json!=null){
+                list = new Gson().fromJson(json, new TypeToken<List<TbPanel>>(){}.getType());
+                log.info("读取了推荐板块缓存");
+                return list;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        list = (List<TbPanel>) getTbPanelContentById(RECOMEED_PANEL_ID);
+        //把结果添加至缓存
+        try{
+            jedisClient.set(RECOMEED_PANEL, new Gson().toJson(list));
+            log.info("添加了推荐板块缓存");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return list;
     }
+
 
     @Override
     public List<TbPanel> getThankGoods() {
-        return null;
+        List<TbPanel> list=new ArrayList<>();
+        //查询缓存
+    return list;
     }
 
     @Override
