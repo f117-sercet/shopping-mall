@@ -9,10 +9,7 @@ import com.dsc.mall.manager.mapper.TbItemDescMapper;
 import com.dsc.mall.manager.mapper.TbItemMapper;
 import com.dsc.mall.manager.mapper.TbPanelContentMapper;
 import com.dsc.mall.manager.mapper.TbPanelMapper;
-import com.dsc.mall.manager.pojo.TbItem;
-import com.dsc.mall.manager.pojo.TbPanel;
-import com.dsc.mall.manager.pojo.TbPanelContent;
-import com.dsc.mall.manager.pojo.TbPanelContentExample;
+import com.dsc.mall.manager.pojo.*;
 import com.github.pagehelper.PageInfo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -223,7 +220,7 @@ public class ContentServiceImpl implements ContentService{
         }catch (Exception e){
             e.printStackTrace();
         }
-        list = (List<TbPanel>) getTbPanelContentById(RECOMEED_PANEL_ID);
+        list = getTbPanelContentById1(RECOMEED_PANEL_ID);
         //把结果添加至缓存
         try{
             jedisClient.set(RECOMEED_PANEL, new Gson().toJson(list));
@@ -237,15 +234,114 @@ public class ContentServiceImpl implements ContentService{
 
     @Override
     public List<TbPanel> getThankGoods() {
-        List<TbPanel> list=new ArrayList<>();
+       List<TbPanel> list=new ArrayList<>();
         //查询缓存
-    return list;
+    try{
+        //有则缓存读取
+        String json=jedisClient.get(THANK_PANEL);
+        if (json!=null){
+            list= new Gson().fromJson(json, new TypeToken<List<TbPanel>>(){}.getType());
+            log.info("读取了捐赠板块缓存");
+            return list;
+        }
+    }catch (Exception e){
+        e.printStackTrace();
     }
+    list =  getTbPanelContentById1(THANK_PANEL_ID);
+    //把结果添加至缓存
+        try{
+            jedisClient.set(THANK_PANEL, new Gson().toJson(list));
+            log.info("添加了捐赠板块缓存");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+     List<TbPanel> getTbPanelContentById1(Integer panelId) {
+         List<TbPanel> list=new ArrayList<>();
+         TbPanelExample example=new TbPanelExample();
+         TbPanelExample.Criteria criteria=example.createCriteria();
+         //条件查询
+         criteria.andIdEqualTo(panelId);
+         criteria.andStatusEqualTo(1);
+         list=tbPanelMapper.selectByExample(example);
+         for(TbPanel tbPanel:list){
+             TbPanelContentExample exampleContent=new TbPanelContentExample();
+             exampleContent.setOrderByClause("sort_order");
+             TbPanelContentExample.Criteria criteriaContent=exampleContent.createCriteria();
+             //条件查询
+             criteriaContent.andPanelIdEqualTo(tbPanel.getId());
+             List<TbPanelContent> contentList=tbPanelContentMapper.selectByExample(exampleContent);
+             for(TbPanelContent content:contentList){
+                 if(content.getProductId()!=null){
+                     TbItem tbItem=tbItemMapper.selectByPrimaryKey(content.getProductId());
+                     content.setProductName(tbItem.getTitle());
+                     content.setSalePrice(tbItem.getPrice());
+                     content.setSubTitle(tbItem.getSellPoint());
+                 }
+             }
+
+             tbPanel.setPanelContents(contentList);
+         }
+         return list;
+     }
+
 
     @Override
     public ProductDet getProductDet(Long id) {
-        return null;
+
+        //查询缓存
+        try {
+            //有缓存则查询
+            String json=jedisClient.get(PRODUCT_ITEM+":"+id);
+            if(json!=null) {
+                ProductDet productDet = new Gson().fromJson(json, ProductDet.class);
+                log.info("读取了商品" + id + "详情缓存");
+                //重置商品缓存时间
+                jedisClient.expire(PRODUCT_ITEM + ":" + id, ITEM_EXPIRE);
+                return productDet;
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        TbItem tbItem=tbItemMapper.selectByPrimaryKey(id);
+        ProductDet productDet=new ProductDet();
+        productDet.setProductId(id);
+        productDet.setProductName(tbItem.getTitle());
+        productDet.setSubTitle(tbItem.getSellPoint());
+        if(tbItem.getLimitNum()!=null&&!tbItem.getLimitNum().toString().isEmpty()){
+            productDet.setLimitNum(Long.valueOf(tbItem.getLimitNum()));
+        }else{
+            productDet.setLimitNum(Long.valueOf(tbItem.getNum()));
+        }
+        productDet.setSalePrice(tbItem.getPrice());
+
+        TbItemDesc tbItemDesc=tbItemDescMapper.selectByPrimaryKey(id);
+        productDet.setDetail(tbItemDesc.getItemDesc());
+
+        if(tbItem.getImage()!=null&&!tbItem.getImage().isEmpty()){
+            String images[]=tbItem.getImage().split(",");
+            productDet.setProductImageBig(images[0]);
+            List list=new ArrayList();
+            for(int i=0;i<images.length;i++){
+                list.add(images[i]);
+            }
+            productDet.setProductImageSmall(list);
+        }
+        //无缓存 把结果添加至缓存
+        try{
+            jedisClient.set(PRODUCT_ITEM+":"+id,new Gson().toJson(productDet));
+            //设置过期时间
+            jedisClient.expire(PRODUCT_ITEM+":"+id,ITEM_EXPIRE);
+            log.info("添加了商品"+id+"详情缓存");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return productDet;
     }
+
 
     @Override
     public AllGoodsResult getAllProduct(int page, int size, String sort, Long cid, int priceGt, int priceLte) {
