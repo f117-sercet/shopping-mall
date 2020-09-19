@@ -3,13 +3,17 @@ package cn.dsc.content.service;
 import com.dsc.common.execetion.MallException;
 import com.dsc.common.jedis.JedisClient;
 import com.dsc.common.pojo.DataTablesResult;
+import com.dsc.mall.manager.dto.DtoUtil;
 import com.dsc.mall.manager.dto.front.AllGoodsResult;
+import com.dsc.mall.manager.dto.front.Product;
 import com.dsc.mall.manager.dto.front.ProductDet;
 import com.dsc.mall.manager.mapper.TbItemDescMapper;
 import com.dsc.mall.manager.mapper.TbItemMapper;
 import com.dsc.mall.manager.mapper.TbPanelContentMapper;
 import com.dsc.mall.manager.mapper.TbPanelMapper;
 import com.dsc.mall.manager.pojo.*;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -345,7 +349,37 @@ public class ContentServiceImpl implements ContentService{
 
     @Override
     public AllGoodsResult getAllProduct(int page, int size, String sort, Long cid, int priceGt, int priceLte) {
-        return null;
+        AllGoodsResult allGoodsResult=new AllGoodsResult();
+        List<Product> list=new ArrayList<>();
+        //分页执行查询返回结果
+        if(page<=0){
+            page=1;
+        }
+        PageHelper.startPage(page,size);
+        //判断条件
+        String orderCol="created";
+        String orderDir="desc";
+        if(sort.equals("1")){
+            orderCol="price";
+            orderDir="asc";
+        }else if(sort.equals("-1")){
+            orderCol="price";
+            orderDir="desc";
+        }else{
+            orderCol="created";
+            orderDir="desc";
+        }
+        List<TbItem> tbItemList =tbItemMapper.selectItemFront(cid,orderCol,orderDir,priceLte,priceLte);
+        PageInfo<TbItem> pageInfo=new PageInfo<>(tbItemList);
+        for(TbItem tbItem:tbItemList){
+            Product product= DtoUtil.TbItem2Product(tbItem);
+            list.add(product);
+        }
+
+        allGoodsResult.setData(list);
+        allGoodsResult.setTotal((int) pageInfo.getTotal());
+
+        return allGoodsResult;
     }
 
     @Override

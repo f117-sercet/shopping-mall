@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author Exrickx
+ * @author dsc
  */
 public class AllGoodsResult implements Serializable {
 
