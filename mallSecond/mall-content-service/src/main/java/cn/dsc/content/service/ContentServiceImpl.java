@@ -384,22 +384,44 @@ public class ContentServiceImpl implements ContentService{
 
     @Override
     public String getIndexRedis() {
-        return null;
+
+        try {
+            String json=jedisClient.get(PRODUCT_HOME);
+            return json;
+        } catch (Exception e) {
+            log.error(e.toString());
+        }
+        return "";
     }
 
     @Override
     public int updateIndexRedis() {
-        return 0;
+        deleteHomeRedis();
+        return 1;
     }
 
     @Override
     public String getRecommendRedis() {
-        return null;
+
+        try {
+            String json=jedisClient.get(RECOMEED_PANEL);
+            return json;
+        } catch (Exception e) {
+            log.error(e.toString());
+        }
+        return "";
     }
 
     @Override
     public int updateRecommendRedis() {
-        return 0;
+
+        try {
+            jedisClient.del(RECOMEED_PANEL);
+        } catch (Exception e) {
+            e.printStackTrace();
+            
+        }
+        return 1;
     }
 
     @Override
