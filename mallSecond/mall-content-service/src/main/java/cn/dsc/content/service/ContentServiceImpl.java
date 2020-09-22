@@ -22,7 +22,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -32,6 +34,7 @@ import java.util.concurrent.Callable;
  * 内容实现类
  * @author 60221
  */
+@Service
 public class ContentServiceImpl implements ContentService{
     private final static Logger log= LoggerFactory.getLogger(PanelServiceImpl.class);
 
@@ -188,7 +191,7 @@ public class ContentServiceImpl implements ContentService{
             //有缓存则读取
             String json=jedisClient.get(PRODUCT_HOME);
             if (json!=null){
-                list=new Gson().fromJson(json,new TypeToken<List<TbPanel>>(){}.getRawType();
+                list=new Gson().fromJson(json, (Type) new TypeToken<List<TbPanel>>(){}.getRawType());
                 log.info("读取了首页缓存");
                 return list;
             }
@@ -419,23 +422,65 @@ public class ContentServiceImpl implements ContentService{
             jedisClient.del(RECOMEED_PANEL);
         } catch (Exception e) {
             e.printStackTrace();
-            
+
         }
         return 1;
     }
 
     @Override
-    public String getThankRedis() {
-        return null;
+    public String getThankRedis()
+    {
+        try{
+            String json=jedisClient.get(THANK_PANEL);
+            return json;
+        }catch (Exception e){
+            log.error(e.toString());
+        }
+        return "";
     }
 
     @Override
     public int updateThankRedis() {
-        return 0;
+        try {
+            jedisClient.del(THANK_PANEL);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return 1;
     }
 
     @Override
     public List<TbPanelContent> getNavList() {
-        return null;
+
+        List<TbPanelContent> list = new ArrayList<>();
+        //查询缓存
+        try{
+            //有缓存则读取
+            String json=jedisClient.get(HEADER_PANEL);
+            if(json!=null){
+                list = new Gson().fromJson(json, new TypeToken<List<TbPanelContent>>(){}.getType());
+                log.info("读取了导航栏缓存");
+                return list;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        TbPanelContentExample exampleContent=new TbPanelContentExample();
+        exampleContent.setOrderByClause("sort_order");
+        TbPanelContentExample.Criteria criteriaContent=exampleContent.createCriteria();
+        //条件查询
+        criteriaContent.andPanelIdEqualTo(HEADER_PANEL_ID);
+        list=tbPanelContentMapper.selectByExample(exampleContent);
+
+        //把结果添加至缓存
+        try{
+            jedisClient.set(HEADER_PANEL, new Gson().toJson(list));
+            log.info("添加了导航栏缓存");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return list;
     }
-}
+    }
