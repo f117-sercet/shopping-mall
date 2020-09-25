@@ -10,7 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mall-search</artifactId>
-<dependencies>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mall-serarch-service</module>
+    </modules>
+    <dependencies>
     <dependency>
         <groupId>com.dsc.mall</groupId>
         <artifactId>mall-common</artifactId>
