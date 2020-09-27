@@ -8,6 +8,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Transaction;
 import redis.clients.jedis.ZParams;
 
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -44,6 +45,24 @@ try {
 
    //计数器自增
    transaction.incr(BUCKET_COUNT);
+    List<Object> results=transaction.exec();
+    long counter= (long) results.get(results.size()-1);
+
+    transaction=jedis.multi();
+    //Zadd 将一个或多个成员元素及其分数值(Score)加入到有序集合当中
+    transaction.zadd(BUCKET_COUNT+point,now,token);
+    transaction.zadd(BUCKET + point, counter, token);
+    transaction.zrank(BUCKET + point, token);
+    results = transaction.exec();
+    //获取排名，判断请求是否取得了信号量
+    long rank= (long) results.get(results.size()-1);
+    if (rank<limit){
+        return token;
+    }else {
+        //没有获得信号量，清理之前放入redis中的垃圾数据
+        transaction=jedis.multi();
+        //
+    }
 
 }catch (Exception e){
     log.error("限流出售"+e.toString());
