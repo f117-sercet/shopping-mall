@@ -61,7 +61,12 @@ try {
     }else {
         //没有获得信号量，清理之前放入redis中的垃圾数据
         transaction=jedis.multi();
-        //
+        //Zrem移除有序集中的一个或多个元素
+        transaction = jedis.multi();
+        //Zrem移除有序集中的一个或多个成员
+        transaction.zrem(BUCKET_MONITOR + point, token);
+        transaction.zrem(BUCKET + point, token);
+        transaction.exec();
     }
 
 }catch (Exception e){
