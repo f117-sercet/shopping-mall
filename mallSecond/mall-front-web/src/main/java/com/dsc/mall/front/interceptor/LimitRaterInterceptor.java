@@ -10,6 +10,7 @@ import com.github.pagehelper.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -68,7 +69,23 @@ public class LimitRaterInterceptor extends HandlerInterceptorAdapter {
         }
         return true;
     }
+    /**
+     * controller方法调用之后执行
+     * 在DispatcherServlet进行视图返回渲染之前被调用
+     * 此时可以通过modelAndView对模型数据进行处理或对视图进行处理
+     */
+
+    @Override
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
 
     }
+    /**
+     * 该方法用于进行资源清理工作
+     */
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+
+    }
+}
 
 
