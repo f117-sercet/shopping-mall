@@ -1,14 +1,11 @@
 package com.dsc.mall.manager.service.impl;
 
-import com.dsc.common.execetion.MallException;
-import com.dsc.common.pojo.DataTablesResult;
-import com.dsc.mall.manager.dto.RoleDto;
-import com.dsc.mall.manager.mapper.TbPermissionMapper;
-import com.dsc.mall.manager.mapper.TbRoleMapper;
-import com.dsc.mall.manager.mapper.TbRolePermMapper;
-import com.dsc.mall.manager.mapper.TbUserMapper;
-import com.dsc.mall.manager.pojo.*;
-import com.dsc.mall.mapper.service.UserService;
+import cn.exrick.common.exception.MallException;
+import cn.exrick.common.pojo.DataTablesResult;
+import cn.exrick.manager.dto.RoleDto;
+import cn.exrick.manager.mapper.*;
+import cn.exrick.manager.pojo.*;
+import cn.exrick.manager.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,12 +15,12 @@ import org.springframework.util.DigestUtils;
 import java.util.*;
 
 /**
- * @author dsc
+ * @author Exrickx
  */
 @Service
 public class UserServiceImpl implements UserService {
 
-    private static final Logger log= LoggerFactory.getLogger(UserServiceImpl.class);
+    private static final Logger log= LoggerFactory.getLogger(cn.exrick.manager.service.impl.UserServiceImpl.class);
 
     @Autowired
     private TbUserMapper tbUserMapper;

@@ -45,6 +45,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public DataTablesResult getOrderList(int draw, int start, int length, String search, String orderCol, String orderDir) {
+
         DataTablesResult result=new DataTablesResult();
         //分页
         PageHelper.startPage(start/length+1,length);
@@ -61,6 +62,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Long countOrder() {
+
         TbOrderExample example=new TbOrderExample();
         Long result=tbOrderMapper.countByExample(example);
         if(result==null){
@@ -71,6 +73,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public OrderDetail getOrderDetail(String orderId) {
+
         OrderDetail orderDetail = new OrderDetail();
         TbOrder tbOrder = tbOrderMapper.selectByPrimaryKey(orderId);
 
@@ -89,13 +92,14 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int deliver(String orderId, String shippingName, String shippingCode, BigDecimal postFee) {
+
         TbOrder o = tbOrderMapper.selectByPrimaryKey(orderId);
         o.setShippingName(shippingName);
         o.setShippingCode(shippingCode);
         o.setPostFee(postFee);
         o.setConsignTime(new Date());
         o.setUpdateTime(new Date());
-        //  0、未付款，1、已付款，2、未发货，3、已发货，4、交易成功，5、交易关闭
+        //之前忘记设置常量了 将就这样看吧 0、未付款，1、已付款，2、未发货，3、已发货，4、交易成功，5、交易关闭
         o.setStatus(3);
         tbOrderMapper.updateByPrimaryKey(o);
         return 1;
@@ -103,6 +107,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int remark(String orderId, String message) {
+
         TbOrder o = tbOrderMapper.selectByPrimaryKey(orderId);
         o.setBuyerMessage(message);
         o.setUpdateTime(new Date());
@@ -112,10 +117,11 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int cancelOrderByAdmin(String orderId) {
+
         TbOrder o = tbOrderMapper.selectByPrimaryKey(orderId);
         o.setCloseTime(new Date());
         o.setUpdateTime(new Date());
-        // 0、未付款，1、已付款，2、未发货，3、已发货，4、交易成功，5、交易关闭
+        //之前忘记设置常量了 将就这样看吧 0、未付款，1、已付款，2、未发货，3、已发货，4、交易成功，5、交易关闭
         o.setStatus(5);
         tbOrderMapper.updateByPrimaryKey(o);
         return 1;
@@ -123,8 +129,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int deleteOrder(String id) {
+
         if(tbOrderMapper.deleteByPrimaryKey(id)!=1){
-            throw new MallException("删除订单数失败");
+            throw new MallException("删除订单数失R败");
         }
 
         TbOrderItemExample example=new TbOrderItemExample();
@@ -145,6 +152,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int cancelOrder() {
+
         TbOrderExample example=new TbOrderExample();
         List<TbOrder> list=tbOrderMapper.selectByExample(example);
         for(TbOrder tbOrder:list){
@@ -152,6 +160,7 @@ public class OrderServiceImpl implements OrderService {
         }
         return 1;
     }
+
     /**
      * 判断订单是否超时未支付
      */
@@ -180,6 +189,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int passPay(String tokenName, String token, String id) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(id)){
             return -1;
@@ -209,14 +219,16 @@ public class OrderServiceImpl implements OrderService {
         }
         //发送通知邮箱
         if(StringUtils.isNotBlank(tbThanks.getEmail())&&EmailUtil.checkEmail(tbThanks.getEmail())){
-            String content="您的订单已支付成功，十分感谢您的捐赠！<br>您可以在捐赠名单中查看到您的数据：";
-            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【Mall商城】支付捐赠成功通知",content);
+            String content="您的订单已支付成功，十分感谢您的捐赠！<br>您可以在捐赠名单中查看到您的数据：" +
+                    "<a href='http://xmall.exrick.cn/#/thanks'>http://xmall.exrick.cn/#/thanks</a><br>Powered By XPay. Exrick Present.";
+            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【XMall商城】支付捐赠成功通知",content);
         }
         return 1;
     }
 
     @Override
     public int backPay(String tokenName, String token, String id) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(id)){
             return -1;
@@ -246,14 +258,15 @@ public class OrderServiceImpl implements OrderService {
         }
         //发送通知邮箱
         if(StringUtils.isNotBlank(tbThanks.getEmail())&& EmailUtil.checkEmail(tbThanks.getEmail())){
-            String content="抱歉，由于您支付不起或其他原因，您的订单支付失败，请尝试重新支付！";
-            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【Mall商城】支付失败通知",content);
+            String content="抱歉，由于您支付不起或其他原因，您的订单支付失败，请尝试重新支付！<br>Powered By XPay. Exrick Present.";
+            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【XMall商城】支付失败通知",content);
         }
         return 1;
     }
 
     @Override
     public int notShowPay(String tokenName, String token, String id) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(id)){
             return -1;
@@ -283,14 +296,16 @@ public class OrderServiceImpl implements OrderService {
         }
         //发送通知邮箱
         if(StringUtils.isNotBlank(tbThanks.getEmail())&&EmailUtil.checkEmail(tbThanks.getEmail())){
-            String content="您的订单已支付成功，十分感谢您的捐赠！<br>但由于您的支付金额过低或其他原因";
-            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【Mall商城】支付捐赠成功通知",content);
+            String content="您的订单已支付成功，十分感谢您的捐赠！<br>但由于您的支付金额过低或其他原因，将不会在捐赠名单中显示，敬请谅解！" +
+                    "<br>Powered By XPay. Exrick Present.";
+            emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【XMall商城】支付捐赠成功通知",content);
         }
         return 1;
     }
 
     @Override
     public int editPay(String tokenName, String token, TbThanks tbThanks) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(tbThanks.getId().toString())){
             return -1;
@@ -315,6 +330,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int payDelNotNotify(String tokenName, String token, String id) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(id)){
             return -1;
@@ -347,6 +363,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int payDel(String tokenName, String token, String id) {
+
         //验证token
         if(StringUtils.isBlank(tokenName)||StringUtils.isBlank(tokenName)||StringUtils.isBlank(id)){
             return -1;
@@ -376,11 +393,10 @@ public class OrderServiceImpl implements OrderService {
         }
         //发送通知邮箱
         if(StringUtils.isNotBlank(tbThanks.getEmail())&& EmailUtil.checkEmail(tbThanks.getEmail())){
-            String content="抱歉，由于您支付不起或其他原因，您的订单支付失败，请尝试重新支付！";
+            String content="抱歉，由于您支付不起或其他原因，您的订单支付失败，请尝试重新支付！<br>Powered By XPay. Exrick Present.";
             emailUtil.sendEmailPayResult(tbThanks.getEmail(),"【XMall商城】支付失败通知",content);
         }
         return 1;
     }
+
 }
-
-

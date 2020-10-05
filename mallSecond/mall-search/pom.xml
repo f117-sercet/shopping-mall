@@ -12,7 +12,8 @@
     <artifactId>mall-search</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mall-serarch-service</module>
+        <module>mall-search-service</module>
+        <module>mall-search-interface</module>
     </modules>
     <dependencies>
     <dependency>
