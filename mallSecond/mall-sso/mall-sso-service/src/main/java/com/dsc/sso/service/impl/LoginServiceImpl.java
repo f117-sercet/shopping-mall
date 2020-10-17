@@ -63,11 +63,22 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public Member getUserByToken(String token) {
-        return null;
+        String json =jedisClient.get("SESSION:"+token);
+        if (json==null) {
+            Member member=new Member();
+            member.setState(0);
+            member.setMessage("用户登录已过期");
+            return member;
+        }
+        //重置过期时间
+        jedisClient.expire("SESSION:" + token, SESSION_EXPIRE);
+        Member member = new Gson().fromJson(json,Member.class);
+        return member;
     }
 
     @Override
     public int logout(String token) {
-        return 0;
+        jedisClient.del("SESSION:" + token);
+        return 1;
     }
 }
