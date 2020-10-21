@@ -1,7 +1,786 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mallSecond" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:supergo-parent" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:supergo-parent" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:supergo-common" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="954fd289-6ae7-4bcc-a24e-8b5cc46f7652" name="Default Changelist" comment="" />
+    <list default="true" id="954fd289-6ae7-4bcc-a24e-8b5cc46f7652" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/mallSecond.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-parent/mall-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_github_xiaoymin_swagger_bootstrap_ui_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_github_openfeign_feign_core_10_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_oschina_zcx7878_fastdfs_client_java_1_27_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_commons_commons_jexl3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_client_transport_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_json_json_20170516.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/supergo-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/src/main/java/com/dsc/supergo/base/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/src/main/java/com/dsc/supergo/base/service/BaseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/supergo-base-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/target/classes/META-INF/supergo-base-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/target/classes/com/dsc/supergo/base/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-base-service/target/classes/com/dsc/supergo/base/service/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/http/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/http/HttpResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/http/HttpStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/http/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/page/PageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/page/PageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/CollectionsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/CookieUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/FastDFSClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/IdWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/JsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/JwtConstans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/MessageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/ObjectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/SSH2Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/SeckillStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/SnowflakeIdWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/UploadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/src/main/java/com/dsc/supergo/user/utils/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/supergo-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/META-INF/supergo-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/http/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/http/HttpResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/http/HttpStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/http/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/page/PageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/page/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/BeanUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/CollectionsUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/CookieUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/FastDFSClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/HttpClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/HttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/JwtConstans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/MessageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/ObjectUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/SSH2Util$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/SSH2Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/SeckillStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/SnowflakeIdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/UploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-common/target/classes/com/dsc/supergo/user/utils/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/src/main/java/com/dsc/supergo/EurekaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/supergo-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/target/classes/META-INF/supergo-eureka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-eureka/target/classes/com/dsc/supergo/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/src/main/java/com/dsc/supergo/manager/ManagerWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/src/main/java/com/dsc/supergo/manager/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/src/main/java/com/dsc/supergo/manager/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/supergo-manager-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/target/classes/META-INF/supergo-manager-web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/target/classes/com/dsc/supergo/manager/ManagerWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/target/classes/com/dsc/supergo/manager/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager-web/target/classes/com/dsc/supergo/manager/controller/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/src/main/java/com/dsc/supergo/manager/feign/ApiBrandFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/src/main/java/com/dsc/supergo/manager/feign/ApiGoodsFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/src/main/java/com/dsc/supergo/manager/feign/ApiItemCatFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/supergo-manager-feign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/target/classes/META-INF/supergo-manager-feign.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/target/classes/com/dsc/supergo/manager/feign/ApiBrandFeign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/target/classes/com/dsc/supergo/manager/feign/ApiGoodsFeign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-feign/target/classes/com/dsc/supergo/manager/feign/ApiItemCatFeign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/ManagerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/controller/GoodsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/controller/ItemCatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/GoodsDescService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/GoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/ItemCatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/ItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/impl/GoodsDescServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/impl/GoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/impl/ItemCatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/java/com/dsc/supergo/manager/service/impl/ItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/supergo-manager-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/META-INF/supergo-manager-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/ManagerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/controller/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/controller/ItemCatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/BrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/GoodsDescService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/ItemCatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/impl/GoodsDescServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/impl/ItemCatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager-service/target/classes/com/dsc/supergo/manager/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-manager/supergo-manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/MapperApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/AddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/AreasMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/AttributeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/CitiesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/ContentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/ContentcategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/FreighttemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/GoodsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/GoodsdescMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/ItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/ItemcatMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthaccesstokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthapprovalsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthclientdetailsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthclienttokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthcodeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OauthrefreshtokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/OrderitemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/PaylogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/ProvincesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/SeckillgoodsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/SeckillorderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/SellerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/SpecificationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/SpecificationoptionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/TypetemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/java/com/dsc/supergo/mapper/UserbakMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/AddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/AreasMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/AttributeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/CitiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/ContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/ContentcategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/FreighttemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/GoodsdescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/ItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/ItemcatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthaccesstokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthapprovalsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthclientdetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthclienttokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthcodeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OauthrefreshtokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/OrderitemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/PaylogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/ProvincesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/SeckillgoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/SeckillorderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/SellerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/SpecificationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/SpecificationoptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/TypetemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/main/resources/mapper/UserbakMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/src/test/java/com/dsc/supergo/mapper/BrandMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/supergo-mapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/META-INF/supergo-mapper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/MapperApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/AddressMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/AreasMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/AttributeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/BrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/CitiesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/ContentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/ContentcategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/FreighttemplateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/GoodsdescMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/ItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/ItemcatMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthaccesstokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthapprovalsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthclientdetailsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthclienttokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthcodeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OauthrefreshtokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/OrderitemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/PaylogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/ProvincesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/SeckillgoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/SeckillorderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/SellerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/SpecificationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/SpecificationoptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/TypetemplateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/com/dsc/supergo/mapper/UserbakMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/AddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/AreasMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/AttributeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/CitiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/ContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/ContentcategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/FreighttemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/GoodsdescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/ItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/ItemcatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthaccesstokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthapprovalsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthclientdetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthclienttokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthcodeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OauthrefreshtokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/OrderitemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/PaylogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/ProvincesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/SeckillgoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/SeckillorderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/SellerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/SpecificationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/SpecificationoptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/TypetemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/classes/mapper/UserbakMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/test-classes/META-INF/supergo-mapper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-mapper/target/test-classes/com/dsc/supergo/mapper/BrandMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Areas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Attribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Cities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Content.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Contentcategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Freighttemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Goodsdesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Itemcat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthaccesstoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthapprovals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthclientdetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthclienttoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthcode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Oauthrefreshtoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Orderitem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Paylog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Provinces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Seckillgoods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Seckillorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Seller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Specification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Specificationoption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Typetemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/src/main/java/com/dsc/supergo/pojo/Userbak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/supergo-pojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/META-INF/supergo-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Areas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Attribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Cities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Contentcategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Freighttemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Goodsdesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Itemcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthaccesstoken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthapprovals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthclientdetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthclienttoken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Oauthrefreshtoken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Orderitem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Paylog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Provinces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Seckillgoods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Seckillorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Seller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Specification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Specificationoption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Typetemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-pojo/target/classes/com/dsc/supergo/pojo/Userbak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/src/main/java/com/PortalApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/src/main/java/com/dsc/supergo/portal/controller/ItemCatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/supergo-portal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/target/classes/META-INF/supergo-portal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/target/classes/com/PortalApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-portal/target/classes/com/dsc/supergo/portal/controller/ItemCatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-feign/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-feign/supergo-search-feign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/SearchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/eneity/GoodsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/eneity/SearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/mapper/goodsMappers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/repository/GoodsRepostory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/java/com/dsc/supergo/search/service/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/supergo-search-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/META-INF/supergo-search-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/SearchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/controller/SearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/eneity/GoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/eneity/SearchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/mapper/goodsMappers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/repository/GoodsRepostory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/service/SearchService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search-service/target/classes/com/dsc/supergo/search/service/SearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-search/supergo-search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/SsoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/pojo/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/java/com/dsc/supergo/sso/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/test/java/com/dsc/supergo/sso/BCryptTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/test/java/com/dsc/supergo/sso/JwtTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/test/java/com/supergo/sso/BCryptTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/src/test/java/com/supergo/sso/JwtTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/supergo-sso-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/META-INF/supergo-sso-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/SsoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/pojo/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/classes/com/dsc/supergo/sso/utils/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/test-classes/META-INF/supergo-sso-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/test-classes/com/dsc/supergo/sso/BCryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/test-classes/com/dsc/supergo/sso/JwtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/test-classes/com/supergo/sso/BCryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso-service/target/test-classes/com/supergo/sso/JwtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso/super-sso-feign/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso/super-sso-feign/super-sso-feign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-sso/supergo-sso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/src/main/java/com/dsc/supergo/zuul/ZuulApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/src/main/java/com/dsc/supergo/zuul/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/src/main/java/com/dsc/supergo/zuul/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/src/main/java/com/dsc/supergo/zuul/config/SwaggerResourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/supergo-zuul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/target/classes/com/dsc/supergo/zuul/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/target/classes/com/dsc/supergo/zuul/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/target/classes/com/dsc/supergo/zuul/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supergo-parent/supergo-zuul/target/classes/com/dsc/supergo/zuul/config/SwaggerResourceConfig.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +794,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -23,6 +805,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1gG8YC8PXA4PloWKNqPqnjfvRzU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -96,21 +881,35 @@
       <workItem from="1602771226157" duration="132000" />
       <workItem from="1602852939001" duration="1460000" />
       <workItem from="1602944337106" duration="177000" />
+      <workItem from="1603203184291" duration="229000" />
+      <workItem from="1603289765806" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1602512676989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602512676989" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1602853573566">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1603203365603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602853573566" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603203365603" />
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598252958111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
