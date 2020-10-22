@@ -1,6 +1,6 @@
 package com.dsc.mall.manager.dto.front;
 
-import cn.exrick.manager.pojo.TbAddress;
+import com.dsc.mall.manager.pojo.TbAddress;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
