@@ -133,6 +133,19 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order getOrder(Long orderId) {
+
+        Order order=new Order();
+        TbOrder tbOrder=tbOrderMapper.selectByPrimaryKey(String.valueOf(orderId));
+        if (tbOrder==null){
+            throw new MallException("通过id获取订单失败");
+        }
+        String validTime=judgeOrder(tbOrder);
+        if (validTime!=null){
+            order.setFinishDate(validTime);
+        }
+        //orderId
+        order.setOrderId(Long.valueOf(tbOrder.getOrderId()));
+
         return null;
     }
 
