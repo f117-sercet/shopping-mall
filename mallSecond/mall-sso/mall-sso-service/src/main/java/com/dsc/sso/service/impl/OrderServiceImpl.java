@@ -145,8 +145,56 @@ public class OrderServiceImpl implements OrderService {
         }
         //orderId
         order.setOrderId(Long.valueOf(tbOrder.getOrderId()));
+        //orderStatus
+        order.setOrderStatus(String.valueOf(tbOrder.getStatus()));
+        //createDate
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        String createDate = formatter.format(tbOrder.getCreateTime());
+        //payDate
+        if (tbOrder.getPaymentTime()!=null){
+            String payDate =formatter.format(tbOrder.getPaymentTime());
+            order.setPayDate(payDate);
+        }
+        //closeDate
+        if (tbOrder.getCloseTime()!=null){
+            String finishDate = formatter.format(tbOrder.getEndTime());
+            order.setFinishDate(finishDate);
+        }
+        //address
+        TbOrderShipping tbOrderShipping=tbOrderShippingMapper.selectByPrimaryKey(tbOrder.getOrderId());
+        TbAddress address = new TbAddress();
+        address.setUserName(tbOrderShipping.getReceiverName());
+        address.setStreetName(tbOrderShipping.getReceiverAddress());
+        address.setTel(tbOrderShipping.getReceiverPhone());
+        order.setAddressInfo(address);
+        //orderTotal
+        if (tbOrder.getPayment()==null){
+            order.setOrderTotal(new BigDecimal(0));
+        }else{
+            order.setOrderTotal(tbOrder.getPayment());
+        }
+        //goodsList
 
-        return null;
+        if(tbOrder.getPayment()==null){
+            order.setOrderTotal(new BigDecimal(0));
+        }else{
+            order.setOrderTotal(tbOrder.getPayment());
+        }
+        //goodsList
+        TbOrderItemExample exampleItem=new TbOrderItemExample();
+        TbOrderItemExample.Criteria criteriaItem= exampleItem.createCriteria();
+        criteriaItem.andOrderIdEqualTo(tbOrder.getOrderId());
+        List<TbOrderItem> listItem =tbOrderItemMapper.selectByExample(exampleItem);
+        List<CartProduct> listProduct=new ArrayList<>();
+        for(TbOrderItem tbOrderItem:listItem){
+
+            CartProduct cartProduct= DtoUtil.TbOrderItem2CartProduct(tbOrderItem);
+
+            listProduct.add(cartProduct);
+        }
+        order.setGoodsList(listProduct);
+        return order;
+
     }
 
     @Override
