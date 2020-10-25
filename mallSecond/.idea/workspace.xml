@@ -32,14 +32,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954fd289-6ae7-4bcc-a24e-8b5cc46f7652" name="Default Changelist" comment="mallSecond">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,8 @@
       <workItem from="1603377048953" duration="288000" />
       <workItem from="1603416926589" duration="1375000" />
       <workItem from="1603549611311" duration="702000" />
-      <workItem from="1603586906139" duration="274000" />
+      <workItem from="1603586906139" duration="1577000" />
+      <workItem from="1603721235458" duration="375000" />
     </task>
     <task id="LOCAL-00001" summary="mallSecond">
       <created>1603377190639</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603550143893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;mallSecond/.idea/workspace.xml">
+      <created>1603602762555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603602762555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,18 +214,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="TEXT_FILTER_SETTINGS">
@@ -237,7 +234,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="mallSecond" />
-    <option name="LAST_COMMIT_MESSAGE" value="mallSecond" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;mallSecond/.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;mallSecond/.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1602512676989">
@@ -276,10 +274,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597816878456" />
-    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog" timestamp="1603550235025">
+    <state x="-7" y="126" key="MergeDialog" timestamp="1603602840526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603550235025" />
+    <state x="-7" y="126" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603602840526" />
+    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog" timestamp="1603602843270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603602843270" />
     <state x="850" y="182" key="RollbackChangesDialog" timestamp="1603587002192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -288,10 +290,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597729657259" />
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603550214494">
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603602879435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603550214494" />
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603602879435" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603417069606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

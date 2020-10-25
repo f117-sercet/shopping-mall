@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.MailAuthenticationException;
+import org.springframework.web.context.support.GenericWebApplicationContext;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
@@ -199,7 +200,16 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int cancelOrder(Long orderId) {
-        return 0;
+        TbOrder tbOrder=tbOrderMapper.selectByPrimaryKey(String.valueOf(orderId));
+        if (tbOrder==null){
+            throw  new MallException("通过id获取订单失败");
+        }
+        tbOrder.setStatus(5);
+        tbOrder.setCloseTime(new Date());
+        if (tbOrderMapper.updateByPrimaryKey(tbOrder)!=1){
+          throw new MallException("取消订单失败");
+        }
+        return 1;
     }
 
     @Override
