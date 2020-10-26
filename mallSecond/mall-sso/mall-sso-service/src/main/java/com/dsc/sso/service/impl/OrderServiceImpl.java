@@ -219,7 +219,22 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int delOrder(Long orderId) {
-        return 0;
+        if (tbOrderMapper.deleteByPrimaryKey(String.valueOf(orderId))!=1){
+            throw new MallException("删除订单失败");
+        }
+        TbOrderItemExample example=new TbOrderItemExample();
+        TbOrderItemExample.Criteria criteria=example.createCriteria();
+        criteria.andOrderIdEqualTo(String.valueOf(orderId));
+        List<TbOrderItem> list =tbOrderItemMapper.selectByExample(example);
+        for (TbOrderItem tbOrderItem:list){
+            if (tbOrderMapper.deleteByPrimaryKey(tbOrderItem.getId())!=1){
+                throw new MallException("删除订单失败");
+            }
+        }
+        if (tbOrderShippingMapper.deleteByPrimaryKey(String.valueOf(orderId))!=1){
+            throw new MallException("删除物流失败");
+        }
+        return 1;
     }
 
     @Override
