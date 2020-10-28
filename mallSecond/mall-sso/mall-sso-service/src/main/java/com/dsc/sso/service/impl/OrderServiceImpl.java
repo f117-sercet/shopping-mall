@@ -24,6 +24,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * 订单Service实现类
@@ -239,7 +240,33 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public int payOrder(TbThanks tbThanks) {
-        return 0;
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String time=sdf.format(new Date());
+        tbThanks.setTime(time);
+        tbThanks.setDate(new Date());
+        TbMember tbMember=tbMemberMapper.selectByPrimaryKey(Long.valueOf(tbThanks.getUserId()));
+        if(tbMember!=null){
+            tbThanks.setUsername(tbMember.getUsername());
+        }
+        if(tbThanksMapper.insert(tbThanks)!=1){
+            throw new MallException("保存捐赠支付数据失败");
+        }
+
+        //设置订单为已付款
+        TbOrder tbOrder=tbOrderMapper.selectByPrimaryKey(tbThanks.getOrderId());
+        tbOrder.setStatus(1);
+        tbOrder.setUpdateTime(new Date());
+        tbOrder.setPaymentTime(new Date());
+        if(tbOrderMapper.updateByPrimaryKey(tbOrder)!=1){
+            throw new MallException("更新订单失败");
+        }
+        //通知确认
+        String tokenName= UUID.randomUUID().toString();
+        String token= UUID.randomUUID().toString();
+        //设置验证token键值对 tokenName:token
+        jedisClient.set(tokenName,token);
+        jedisClient.expire(tokenName,PAY_EXPIRE);
+        return 1;
     }
 
     /**

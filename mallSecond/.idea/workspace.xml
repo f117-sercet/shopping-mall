@@ -32,13 +32,12 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954fd289-6ae7-4bcc-a24e-8b5cc46f7652" name="Default Changelist" comment="mallSecond">
+    <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603550143893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2133123">
+      <created>1603795834769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795834769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2133123">
+      <created>1603795875561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795875561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +250,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="mallSecond" />
-    <option name="LAST_COMMIT_MESSAGE" value="mallSecond" />
+    <MESSAGE value="添加了一个删除方法" />
+    <MESSAGE value="2133123" />
+    <option name="LAST_COMMIT_MESSAGE" value="2133123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1602512676989">
@@ -288,14 +303,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597729657259" />
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603550214494">
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603795937309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603550214494" />
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603417069606">
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603795937309" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603796181139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603417069606" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603796181139" />
     <state x="468" y="0" width="684" height="824" key="find.popup" timestamp="1598515953914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
