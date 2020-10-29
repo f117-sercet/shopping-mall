@@ -225,6 +225,18 @@ public class OrderServiceImpl implements OrderService {
         //生成订单ID
         Long orderId = IDUtil.getRandomId();
         order.setOrderId(String.valueOf(orderId));
+        order.setUserId(Long.valueOf(orderInfo.getUserId()));
+        order.setPayment(orderInfo.getOrderTotal());
+        order.setCreateTime(new Date());
+        order.setUpdateTime(new Date());
+        //0 未支付 1 已支付 2.未发货 3.已发货 4.交易成功 5.交易关闭 6 交易失败
+        order.setStatus(0);
+
+        if (tbOrderMapper.insert(order)!=1){
+            throw new MallException("生成订单失败");
+
+        }
+
         return null;
     }
 
