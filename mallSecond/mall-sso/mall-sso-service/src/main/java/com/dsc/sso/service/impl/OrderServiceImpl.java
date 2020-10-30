@@ -13,6 +13,7 @@ import com.dsc.mall.manager.pojo.*;
 import com.dsc.sso.service.OrderService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,6 +64,8 @@ public class OrderServiceImpl implements OrderService {
 
     @Value("1209600")
     private int PAY_EXPIRE;
+    @Value("${CART_PRE}")
+    private String CART_PRE;
     /**
      *
      * @param userId
@@ -234,10 +237,55 @@ public class OrderServiceImpl implements OrderService {
 
         if (tbOrderMapper.insert(order)!=1){
             throw new MallException("生成订单失败");
-
         }
 
-        return null;
+        List<CartProduct> list =orderInfo.getGoodsList();
+        for (CartProduct cartProduct : list){
+
+            TbOrderItem orderItem = new TbOrderItem();
+            //生成订单商品ID
+            Long orderItemId = IDUtil.getRandomId();
+            orderItem.setId(String.valueOf(orderItemId));
+            orderItem.setItemId(String.valueOf(cartProduct.getProductId()));
+            orderItem.setOrderId(String.valueOf(orderId));
+            orderItem.setNum(Math.toIntExact(cartProduct.getProductNum()));
+            orderItem.setPrice(cartProduct.getSalePrice());
+            orderItem.setTitle(cartProduct.getProductName());
+            orderItem.setPicPath(cartProduct.getProductImg());
+            orderItem.setTotalFee(cartProduct.getSalePrice().multiply(BigDecimal.valueOf(cartProduct.getProductNum())));
+
+            if(tbOrderItemMapper.insert(orderItem)!=1){
+                throw new MallException("生成订单商品失败");
+            }
+
+            //删除购物车中含该订单的商品
+            try{
+                List<String> jsonList = jedisClient.hvals(CART_PRE + ":" + orderInfo.getUserId());
+                for (String json : jsonList) {
+                    CartProduct cart = new Gson().fromJson(json,CartProduct.class);
+                    if(cart.getProductId().equals(cartProduct.getProductId())){
+                        jedisClient.hdel(CART_PRE + ":" + orderInfo.getUserId(),cart.getProductId()+"");
+                    }
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+        //物流表
+        TbOrderShipping orderShipping=new TbOrderShipping();
+        orderShipping.setOrderId(String.valueOf(orderId));
+        orderShipping.setReceiverName(orderInfo.getUserName());
+        orderShipping.setReceiverAddress(orderInfo.getStreetName());
+        orderShipping.setReceiverPhone(orderInfo.getTel());
+        orderShipping.setCreated(new Date());
+        orderShipping.setUpdated(new Date());
+
+        if(tbOrderShippingMapper.insert(orderShipping)!=1){
+            throw new MallException("生成物流信息失败");
+        }
+
+        return orderId;
     }
 
     @Override
