@@ -37,10 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/java/com/dsc/sso/service/impl/OrderServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +154,7 @@
       <workItem from="1603549611311" duration="702000" />
       <workItem from="1603586906139" duration="274000" />
       <workItem from="1603981567444" duration="1503000" />
-      <workItem from="1604109050705" duration="672000" />
+      <workItem from="1604109050705" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="mallSecond">
       <created>1603377190639</created>
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604065662864</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1604121306760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604121306760</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
