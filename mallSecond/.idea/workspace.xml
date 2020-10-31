@@ -37,7 +37,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="" />
+    <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/conf/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/conf/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-sso/mall-sso-service/mall-sso-service.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +89,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-sso/mall-sso-interface/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-sso/mall-sso-service/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,18 +110,19 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\java idea\mallSecond\mall-sso\mall-sso-interface\src\main\java" />
-      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-service\src\main\java\com\dsc\mall\manager\service\impl" />
-      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-service\src\main\resources" />
-      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-interface\src\main\java\com\dsc\mall\mapper\service" />
-      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-pojo\src\main\java\com\dsc\mall\manager" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Github\Git\repo\mallSecond\mallSecond\mall-sso\mall-sso-service\src\main" />
+      <recent name="F:\java\java idea\mallSecond\Sql\src\main\java\com\mall" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dsc.common.execetion" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java\java idea\mallSecond\Sql\src\main\java\com\mall" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github\Git\repo\mallSecond\mallSecond\mall-sso\mall-sso-service\src\main" />
+      <recent name="F:\java\java idea\mallSecond\mall-sso\mall-sso-interface\src\main\java" />
+      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-service\src\main\java\com\dsc\mall\manager\service\impl" />
+      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-service\src\main\resources" />
+      <recent name="F:\java\java idea\mallSecond\mall-manager\mall-manager-interface\src\main\java\com\dsc\mall\mapper\service" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -154,7 +168,7 @@
       <workItem from="1603549611311" duration="702000" />
       <workItem from="1603586906139" duration="274000" />
       <workItem from="1603981567444" duration="1503000" />
-      <workItem from="1604109050705" duration="1126000" />
+      <workItem from="1604109050705" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="mallSecond">
       <created>1603377190639</created>
@@ -233,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604121306760</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1604121886803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604121886803</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +298,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mallSecond" />
     <MESSAGE value="添加了一个删除方法" />
     <MESSAGE value="2133123" />
@@ -290,14 +312,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602512676989" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1603376611387">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1604121420052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603376611387" />
-    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598252958111">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604121420052" />
+    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604194697860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1598252958111" />
+    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1604194697860" />
     <state x="322" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598419386946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -334,10 +356,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597729657259" />
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604065674927">
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604121898359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604065674927" />
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604121898359" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603796181139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
