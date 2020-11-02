@@ -22,7 +22,6 @@
         <version>1.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
-    <!-- 配置tomcat插件 -->
     <build>
         <plugins>
             <plugin>
