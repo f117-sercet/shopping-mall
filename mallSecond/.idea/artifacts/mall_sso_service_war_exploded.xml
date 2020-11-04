@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mall-sso-service:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mall_sso_service_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mall-sso-service/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mall-sso-service" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
