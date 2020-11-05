@@ -38,71 +38,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9eb75d-4e32-4edf-b83b-b19be15d033b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mall_sso_service_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/java/com/dsc/search/serviceImpl/SearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/conf/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/conf/resource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/spring/applicationContext-activemq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-search/mall-search-service/mall-search-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/java/com/dsc/search/serviceImpl/SearchItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/java/com/dsc/search/serviceImpl/SearchItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/java/com/dsc/search/serviceImpl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-search/mall-search-service/src/main/java/com/dsc/search/serviceImpl/SearchServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +163,8 @@
       <workItem from="1603981567444" duration="1503000" />
       <workItem from="1604109050705" duration="2571000" />
       <workItem from="1604195201834" duration="4340000" />
-      <workItem from="1604467871645" duration="1864000" />
+      <workItem from="1604467871645" duration="3840000" />
+      <workItem from="1604659676353" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="mallSecond">
       <created>1603377190639</created>
@@ -339,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604468272254</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;mallSecond/.idea/workspace.xml">
+      <created>1604483003868</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483003868</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;mallSecond/.idea/workspace.xml">
+      <created>1604578515813</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604578515813</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,30 +375,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604328218534" />
-    <state width="885" height="258" key="GridCell.Tab.0.bottom" timestamp="1604482646845">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1604578536275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="885" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604482646845" />
-    <state width="885" height="258" key="GridCell.Tab.0.center" timestamp="1604482646845">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604578536275" />
+    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1604578536274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="885" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604482646845" />
-    <state width="885" height="258" key="GridCell.Tab.0.left" timestamp="1604482646845">
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604578536274" />
+    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1604578536274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="885" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604482646845" />
-    <state width="885" height="258" key="GridCell.Tab.0.right" timestamp="1604482646845">
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604578536274" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1604578536275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="885" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604482646845" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604578536275" />
     <state x="294" y="68" key="MergeDialog" timestamp="1604468300849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="294" y="68" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604468300849" />
-    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog" timestamp="1604468302727">
+    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog" timestamp="1604483029162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604468302727" />
+    <state x="901" y="283" width="471" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604483029162" />
     <state x="850" y="182" key="RollbackChangesDialog" timestamp="1603587002192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -454,10 +407,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604328247702" />
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604468324229">
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604578521875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604468324229" />
+    <state x="609" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604578521875" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603796181139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
