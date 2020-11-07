@@ -1,8 +1,12 @@
 package com.dsc.search.serviceImpl;
 
+import com.dsc.common.execetion.MallException;
 import com.dsc.mall.manager.dto.EsInfo;
+import com.dsc.mall.manager.dto.front.SearchItem;
 import com.dsc.search.mapper.ItemMapper;
 import com.dsc.search.search.SearchItemService;
+import org.elasticsearch.action.bulk.BulkRequestBuilder;
+import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
@@ -14,6 +18,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.net.InetAddress;
+import java.util.List;
+
+import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
 /**
  * 实现类1
@@ -46,10 +53,47 @@ public class SearchItemServiceImpl implements SearchItemService
         try {
             Settings settings= Settings.builder().put("cluster.name",ES_CLUSTER_NAME).build();
             TransportClient client = new PreBuiltTransportClient(settings).addTransportAddress(new TransportAddress(InetAddress.getByName(ES_CONNECT_IP),93000));
+
+            //批量添加
+            BulkRequestBuilder bulkRequest = client.prepareBulk();
+
+            //查询商品列表
+            List<SearchItem> itemList = itemMapper.getItemList();
+            for (SearchItem searchItem: itemList){
+                String imag = searchItem.getProductImageBig();
+                if (imag != null && !"".equals(imag)){
+                    String[] strings = imag.split(",");
+                    imag=strings[0];
+                }else {
+                    imag="";
+                }
+                searchItem.setProductImageBig(imag);
+                bulkRequest.add(client.prepareIndex(ITEM_INDEX, ITEM_TYPE, String.valueOf(searchItem.getProductId()))
+                        .setSource(jsonBuilder()
+                                .startObject()
+                                .field("productId", searchItem.getProductId())
+                                .field("salePrice", searchItem.getSalePrice())
+                                .field("productName", searchItem.getProductName())
+                                .field("subTitle", searchItem.getSubTitle())
+                                .field("productImageBig", searchItem.getProductImageBig())
+                                .field("categoryName", searchItem.getCategoryName())
+                                .field("cid", searchItem.getCid())
+                                .endObject()
+                        )
+                );
+            }
+
+            BulkResponse bulkResponse = bulkRequest.get();
+
+            log.info("更新索引成功");
+
+            client.close();
+
         } catch (Exception e) {
             e.printStackTrace();
+            throw new MallException("导入ES索引库出错，请再次尝试");
         }
-        return 0;
+        return 1;
     }
 
     @Override
