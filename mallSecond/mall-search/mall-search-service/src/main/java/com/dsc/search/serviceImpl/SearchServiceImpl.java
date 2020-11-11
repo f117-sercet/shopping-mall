@@ -2,6 +2,7 @@ package com.dsc.search.serviceImpl;
 
 import com.dsc.mall.manager.dto.front.SearchResult;
 import com.dsc.search.search.SearchService;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
@@ -65,6 +66,12 @@ public class SearchServiceImpl implements SearchService {
             int start=(page - 1) * size;
             //设置高亮显示
             HighlightBuilder highlightBuilder = new HighlightBuilder();
+            highlightBuilder.preTags("<a style=\"color: #e4393c\">");
+            highlightBuilder.postTags("</a>");
+            highlightBuilder.field("product");
+
+            //执行搜索
+            SearchResponse searchResponse = null;
 
 
         } catch (Exception e) {
