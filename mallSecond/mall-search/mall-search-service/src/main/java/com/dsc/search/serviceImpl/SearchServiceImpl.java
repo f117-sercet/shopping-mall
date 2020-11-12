@@ -3,10 +3,12 @@ package com.dsc.search.serviceImpl;
 import com.dsc.mall.manager.dto.front.SearchResult;
 import com.dsc.search.search.SearchService;
 import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,6 +17,7 @@ import javax.swing.text.Highlighter;
 import java.net.InetAddress;
 
 import static org.elasticsearch.index.query.QueryBuilders.matchQuery;
+import static org.elasticsearch.index.query.QueryBuilders.queryStringQuery;
 
 /**
  * Search实现类
@@ -73,6 +76,27 @@ public class SearchServiceImpl implements SearchService {
             //执行搜索
             SearchResponse searchResponse = null;
 
+            if(priceGt>=0&&priceLte>=0&&sort.isEmpty()) {
+                searchResponse = client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.QUERY_THEN_FETCH)
+                        /**
+                         * Query
+                         */
+                        .setQuery(qb)
+                        /**
+                         * 从第几个开始，显示size个数据
+                         */
+                        .setFrom(start).setSize(size).setExplain(true)
+                        /**
+                         * 设置高亮显示
+                         */
+                        .highlighter(highlightBuilder)
+                        .setPostFilter(QueryBuilders.rangeQuery("saleProduct"))
+                        .get();
+            }else if (priceGt>=0&&priceLte>=0&&sort.equals("1")){
+
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
