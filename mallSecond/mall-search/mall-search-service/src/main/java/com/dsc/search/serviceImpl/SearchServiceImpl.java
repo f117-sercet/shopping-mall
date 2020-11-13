@@ -10,6 +10,7 @@ import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
+import org.elasticsearch.search.sort.SortOrder;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -96,6 +97,27 @@ public class SearchServiceImpl implements SearchService {
                         .get();
             }else if (priceGt>=0&&priceLte>=0&&sort.equals("1")){
 
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        /**
+                         * / Query
+                         */
+                        .setQuery(qb)
+                        /**
+                         * //从第几个开始，显示size个数据
+                         */
+                        .setFrom(start).setSize(size).setExplain(true)
+                        /**
+                         * //设置高亮显示
+                         */
+                        .highlighter(highlightBuilder)
+                        /**
+                         * //过滤条件
+                         */
+                        .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))
+                        .addSort("salePrice", SortOrder.ASC)
+                        .get();
             }
 
         } catch (Exception e) {
