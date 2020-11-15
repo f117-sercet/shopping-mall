@@ -1,7 +1,9 @@
 package com.dsc.search.serviceImpl;
 
+import com.dsc.mall.manager.dto.front.SearchItem;
 import com.dsc.mall.manager.dto.front.SearchResult;
 import com.dsc.search.search.SearchService;
+import com.google.gson.Gson;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.transport.TransportClient;
@@ -9,6 +11,8 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
@@ -16,6 +20,8 @@ import org.springframework.beans.factory.annotation.Value;
 
 import javax.swing.text.Highlighter;
 import java.net.InetAddress;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.elasticsearch.index.query.QueryBuilders.matchQuery;
 import static org.elasticsearch.index.query.QueryBuilders.queryStringQuery;
@@ -118,7 +124,94 @@ public class SearchServiceImpl implements SearchService {
                         .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))
                         .addSort("salePrice", SortOrder.ASC)
                         .get();
+            }else if (priceGt>0&&priceLte>=0&&sort.equals("-1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)
+                        .setFrom(start).setSize(size).setExplain(true)
+                        .highlighter(highlightBuilder)
+                        /**
+                         * 过滤条件
+                         */
+                        .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))
+                        .addSort("salePrice", SortOrder.DESC)
+                        .get();
+            }else if(priceGt>=0&&priceLte>=0&&sort.equals("1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)	// Query
+                        .setFrom(start).setSize(size).setExplain(true)	//从第几个开始，显示size个数据
+                        .highlighter(highlightBuilder)		//设置高亮显示
+                        .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))	//过滤条件
+                        .addSort("salePrice", SortOrder.ASC)
+                        .get();
+            }else if(priceGt>=0&&priceLte>=0&&sort.equals("-1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)	// Query
+                        .setFrom(start).setSize(size).setExplain(true)	//从第几个开始，显示size个数据
+                        .highlighter(highlightBuilder)		//设置高亮显示
+                        .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))	//过滤条件
+                        .addSort("salePrice", SortOrder.DESC)
+                        .get();
+            }else if((priceGt<0||priceLte<0)&&sort.isEmpty()){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)	// Query
+                        .setFrom(start).setSize(size).setExplain(true)	//从第几个开始，显示size个数据
+                        .highlighter(highlightBuilder)		//设置高亮显示
+                        .get();
+            }else if((priceGt<0||priceLte<0)&&sort.equals("1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)	// Query
+                        .setFrom(start).setSize(size).setExplain(true)	//从第几个开始，显示size个数据
+                        .highlighter(highlightBuilder)		//设置高亮显示
+                        .addSort("salePrice", SortOrder.ASC)
+                        .get();
+            }else if((priceGt<0||priceLte<0)&&sort.equals("-1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)	// Query
+                        .setFrom(start).setSize(size).setExplain(true)	//从第几个开始，显示size个数据
+                        .highlighter(highlightBuilder)		//设置高亮显示
+                        .addSort("salePrice", SortOrder.DESC)
+                        .get();
             }
+
+
+            SearchHits hits = searchResponse.getHits();
+            //返回总结果数
+            searchResult.setRecordCount(hits.totalHits);
+            List<SearchItem> list=new ArrayList<>();
+            if (hits.totalHits > 0) {
+                for (SearchHit hit : hits) {
+                    //总页数
+                    int totalPage=(int) (hit.getScore()/size);
+                    if((hit.getScore()%size)!=0){
+                        totalPage++;
+                    }
+                    //返回结果总页数
+                    searchResult.setTotalPages(totalPage);
+                    //设置高亮字段
+                    SearchItem searchItem=new Gson().fromJson(hit.getSourceAsString(),SearchItem.class);
+                    String productName = hit.getHighlightFields().get("productName").getFragments()[0].toString();
+                    searchItem.setProductName(productName);
+                    //返回结果
+                    list.add(searchItem);
+                }
+            }
+            searchResult.setItemList(list);
+            //因个人服务器配置过低此处取消关闭减轻搜索压力增快搜索速度
+            //client.close();
+
+            return searchResult;
 
         } catch (Exception e) {
             e.printStackTrace();
