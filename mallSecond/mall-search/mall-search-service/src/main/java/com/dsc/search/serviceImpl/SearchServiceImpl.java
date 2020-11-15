@@ -118,6 +118,19 @@ public class SearchServiceImpl implements SearchService {
                         .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))
                         .addSort("salePrice", SortOrder.ASC)
                         .get();
+            }else if (priceGt>0&&priceLte>=0&&sort.equals("-1")){
+                searchResponse=client.prepareSearch(ITEM_INDEX)
+                        .setTypes(ITEM_TYPE)
+                        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                        .setQuery(qb)
+                        .setFrom(start).setSize(size).setExplain(true)
+                        .highlighter(highlightBuilder)
+                        /**
+                         * 过滤条件
+                         */
+                        .setPostFilter(QueryBuilders.rangeQuery("salePrice").gt(priceGt).lt(priceLte))
+                        .addSort("salePrice", SortOrder.DESC)
+                        .get();
             }
 
         } catch (Exception e) {
