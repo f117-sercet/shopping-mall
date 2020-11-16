@@ -1,5 +1,6 @@
 package com.dsc.search.serviceImpl;
 
+import com.dsc.common.utils.HttpUtil;
 import com.dsc.mall.manager.dto.front.SearchItem;
 import com.dsc.mall.manager.dto.front.SearchResult;
 import com.dsc.search.search.SearchService;
@@ -221,6 +222,14 @@ public class SearchServiceImpl implements SearchService {
 
     @Override
     public String quickSearch(String key) {
-        return null;
+
+        String result = null;
+
+        try {
+            result = HttpUtil.sendGet("http://"+ES_CONNECT_IP+":"+ES_NODE_CLIENT_PORT+"/item/itemList/_search?q=productName:"+key);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }

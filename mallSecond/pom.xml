@@ -16,6 +16,7 @@
         <module>mall-manager-web</module>
         <module>mall-search</module>
         <module>mall-sso</module>
+        <module>mall-front-web</module>
     </modules>
     <!-- 集中定义管理依赖版本号 -->
     <properties>
