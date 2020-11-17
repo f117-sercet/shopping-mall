@@ -6,24 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-content" />
-        <module name="mall-manager-pojo" />
-        <module name="mall-manager-dao" />
-        <module name="mall-common" />
-        <module name="mall-manager-web" />
-        <module name="mall-sso-service" />
-        <module name="mall-manager-service" />
-        <module name="mall-search-service" />
-        <module name="mall-search-interface" />
         <module name="mall-front-web" />
-        <module name="mall-sso-interface" />
-        <module name="Sql" />
+        <module name="mall-sso-service" />
+        <module name="mall-common" />
         <module name="mall-manager-interface" />
+        <module name="mall-manager-dao" />
+        <module name="mall-content-interface" />
+        <module name="mall-manager-web" />
+        <module name="mall-content-service" />
+        <module name="mall-manager-pojo" />
+        <module name="Sql" />
+        <module name="mall-sso-interface" />
+        <module name="mall-search-service" />
+        <module name="mall-manager-service" />
+        <module name="mall-search-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mall-common" target="1.8" />
       <module name="mall-content" target="1.8" />
+      <module name="mall-content-interface" target="1.8" />
+      <module name="mall-content-service" target="1.8" />
       <module name="mall-front-web" target="1.8" />
       <module name="mall-manager" target="1.8" />
       <module name="mall-manager-dao" target="1.8" />
