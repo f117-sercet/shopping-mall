@@ -38,4 +38,27 @@ public class AddressController {
         TbAddress address=addressService.getAddress(tbAddress.getAddressId());
         return new ResultUtil<TbAddress>().setData(address);
     }
+    @RequestMapping(value = "/member/addAddress",method = RequestMethod.POST)
+    @ApiOperation(value = "添加收货地址")
+    public Result<Object> addAddress(@RequestBody TbAddress tbAddress){
+
+        int result=addressService.addAddress(tbAddress);
+        return new ResultUtil<Object>().setData(result);
+    }
+
+    @RequestMapping(value = "/member/updateAddress",method = RequestMethod.POST)
+    @ApiOperation(value = "编辑收货地址")
+    public Result<Object> updateAddress(@RequestBody TbAddress tbAddress){
+
+        int result=addressService.updateAddress(tbAddress);
+        return new ResultUtil<Object>().setData(result);
+    }
+
+    @RequestMapping(value = "/member/delAddress",method = RequestMethod.POST)
+    @ApiOperation(value = "删除收货地址")
+    public Result<Object> delAddress(@RequestBody TbAddress tbAddress){
+
+        int result=addressService.delAddress(tbAddress);
+        return new ResultUtil<Object>().setData(result);
+    }
 }
