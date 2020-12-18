@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author dsc
+ */
 public class TbThanksExample {
     protected String orderByClause;
 
