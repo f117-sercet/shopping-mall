@@ -9,8 +9,8 @@ import com.dsc.common.utils.ResultUtil;
 import com.dsc.mall.manager.dto.front.CommonDto;
 import com.dsc.mall.manager.dto.front.Member;
 import com.dsc.mall.manager.dto.front.MemberLoginRegist;
-import com.dsc.mall.mapper.service.MemberService;
 import com.dsc.sso.service.LoginService;
+import com.dsc.sso.service.MemberService;
 import com.dsc.sso.service.RegisterService;
 import com.google.gson.Gson;
 import io.swagger.annotations.Api;
@@ -21,6 +21,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.UUID;
 
@@ -169,6 +170,14 @@ public class MemberController {
             // 验证失败
             return new ResultUtil<Object>().setErrorMsg("验证失败");
         }
+    }
+
+    @RequestMapping(value = "/member/imageUpload",method = RequestMethod.POST)
+    @ApiOperation(value = "用户头像上传")
+    public Result<Object> imgaeUpload(@RequestBody CommonDto common){
+
+        String imgPath = memberService.imageUpload(common.getUserId(),common.getToken(),common.getImgData());
+        return new ResultUtil<Object>().setData(imgPath);
     }
 
 }
