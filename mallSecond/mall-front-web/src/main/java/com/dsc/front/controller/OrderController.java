@@ -2,6 +2,7 @@ package com.dsc.front.controller;
 
 import com.dsc.common.pojo.Result;
 import com.dsc.common.utils.ResultUtil;
+import com.dsc.mall.manager.dto.front.Order;
 import com.dsc.mall.manager.dto.front.PageOrder;
 import com.dsc.sso.service.OrderService;
 import io.swagger.annotations.Api;
@@ -32,4 +33,12 @@ public class OrderController {
         PageOrder pageOrder = orderService.getOrderList(Long.valueOf(userId), page, size);
         return new ResultUtil<PageOrder>().setData(pageOrder);
     }
+    @RequestMapping(value = "/member/orderDetail",method = RequestMethod.GET)
+    @ApiOperation(value = "通过id获取订单")
+    public Result<Order> getOrder(String orderId){
+
+        Order order = orderService.getOrder(Long.valueOf(orderId));
+        return new ResultUtil<Order>().setData(order);
+    }
+
 }
